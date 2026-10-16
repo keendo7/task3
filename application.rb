@@ -1,6 +1,6 @@
 require 'sinatra'
 
-get '/m_szczupak3@gmail_com' do
+get '/m_szczupak3_gmail_com' do
     x = params['x'].to_i || 0
     y = params['y'].to_i || 0
     
