@@ -4,7 +4,7 @@ get '/m_szczupak3_gmail_com' do
     x = params['x'].to_i || 0
     y = params['y'].to_i || 0
     
-   "NaN" if(x <= 0 || y <= 0)
+   return "NaN" if(x <= 0 || y <= 0)
 
     nww(x,y).to_s
 end
